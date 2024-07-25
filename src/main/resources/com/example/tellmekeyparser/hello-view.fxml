@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" nodeOrientation="RIGHT_TO_LEFT" prefHeight="410.0" prefWidth="884.0" spacing="20.0" style="-fx-background-color:  rgb(222, 222, 222);" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tellmekeyparser.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label text="TellME keyParser  1.01">
+      <font>
+         <Font name="Constantia Bold" size="24.0" />
+      </font>
+      <textFill>
+         <RadialGradient centerX="0.7928176795580112" centerY="0.48578199052132703" focusDistance="-0.06896551724137934" radius="1.0">
+            <stops>
+               <Stop>
+                  <color>
+                     <Color red="0.9200000166893005" green="0.0551999993622303" blue="0.5591481924057007" />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color red="0.009868420660495758" green="0.1184210553765297" blue="0.09671052545309067" />
+                  </color>
+               </Stop>
+            </stops>
+         </RadialGradient>
+      </textFill>
+   </Label>
+   <GridPane>
+     <columnConstraints>
+         <ColumnConstraints hgrow="SOMETIMES" maxWidth="448.0" minWidth="10.0" prefWidth="126.0" />
+         <ColumnConstraints hgrow="SOMETIMES" maxWidth="525.0" minWidth="10.0" prefWidth="309.0" />
+       <ColumnConstraints hgrow="SOMETIMES" maxWidth="439.0" minWidth="10.0" prefWidth="287.0" />
+       <ColumnConstraints hgrow="SOMETIMES" maxWidth="417.0" minWidth="10.0" prefWidth="123.0" />
+     </columnConstraints>
+     <rowConstraints>
+       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+     </rowConstraints>
+      <children>
+         <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="16.0" prefWidth="285.0" text="SPK keys" GridPane.columnIndex="2">
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefHeight="17.0" prefWidth="307.0" text="c2s keys" GridPane.columnIndex="1">
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefHeight="27.0" prefWidth="120.0" text="Result">
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Label>
+      </children>
+   </GridPane>
+   <GridPane gridLinesVisible="true" nodeOrientation="LEFT_TO_RIGHT" opacity="0.9">
+     <columnConstraints>
+         <ColumnConstraints hgrow="SOMETIMES" maxWidth="174.0" minWidth="10.0" prefWidth="115.0" />
+       <ColumnConstraints hgrow="SOMETIMES" maxWidth="345.0" minWidth="10.0" prefWidth="281.0" />
+       <ColumnConstraints hgrow="SOMETIMES" maxWidth="350.0" minWidth="10.0" prefWidth="302.0" />
+         <ColumnConstraints hgrow="SOMETIMES" maxWidth="276.0" minWidth="10.0" prefWidth="120.0" />
+     </columnConstraints>
+     <rowConstraints>
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+     </rowConstraints>
+      <children>
+
+          <Label text=" KeyID">
+              <font>
+                  <Font name="System Bold" size="12.0" />
+              </font>
+              <effect>
+                  <Glow />
+              </effect>
+              <cursor>
+                  <Cursor fx:constant="TEXT" />
+              </cursor>
+          </Label>
+          <Label fx:id="welcomeText0" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="250.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+          <Label fx:id="welcomeText1" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="250.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+          <Label fx:id="welcomeText2" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="250.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+          <Label fx:id="welcomeText3" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="250.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+          <Label fx:id="welcomeText4" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="250.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+          <Label fx:id="welcomeText5" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="250.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+          <Label fx:id="welcomeText6" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="250.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+          <Label fx:id="welcomeText7" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="250.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+          <Label fx:id="welcomeText8" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="250.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+          <Label fx:id="welcomeText9" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="250.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+          <Label fx:id="welcomeText10" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="250.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+          <Label fx:id="welcomeText11" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="250.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+          <Label fx:id="welcomeText12" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="250.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+          <Label fx:id="welcomeText13" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="250.0" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+
+          <Label text=" HDD" GridPane.rowIndex="1">
+
+
+
+
+
+
+
+            <font>
+               <Font name="System Bold" size="12.0" />
+            </font>
+         </Label>
+         <Label text=" MBoard" GridPane.rowIndex="2">
+            <font>
+               <Font name="System Bold" size="12.0" />
+            </font>
+         </Label>
+         <Label text=" CPU" GridPane.rowIndex="3">
+            <font>
+               <Font name="System Bold" size="12.0" />
+            </font>
+         </Label>
+         <Label text=" LAN" GridPane.rowIndex="4">
+            <font>
+               <Font name="System Bold" size="12.0" />
+            </font>
+         </Label>
+      </children>
+   </GridPane>
+   <GridPane alignment="CENTER">
+     <columnConstraints>
+       <ColumnConstraints hgrow="SOMETIMES" maxWidth="786.0" minWidth="10.0" prefWidth="661.0" />
+         <ColumnConstraints maxWidth="183.0" minWidth="133.0" prefWidth="183.0" />
+     </columnConstraints>
+     <rowConstraints>
+       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+     </rowConstraints>
+      <children>
+         <Button fx:id="openSPKButton" contentDisplay="CENTER" onAction="#handleOpenSPKFile" prefHeight="26.0" prefWidth="128.0" text="Открыть SPK" GridPane.columnIndex="1" />
+         <Label fx:id="fileSPKPathLabel" prefHeight="17.0" prefWidth="605.0" text="SPK не установлен" />
+         <Button fx:id="open2sButton2" contentDisplay="CENTER" onAction="#handleOpenc2sFile" prefHeight="26.0" prefWidth="128.0" text="Открыть c2s" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         <Label fx:id="filec2sPathLabel" prefHeight="17.0" prefWidth="605.0" text="c2s не выбран" GridPane.rowIndex="1" />
+         <Button onAction="#onHelloButtonClick" text="COMPARE KEYS" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+         <Label text="\@RSHB Zheleznyak -24" GridPane.rowIndex="4">
+            <font>
+               <Font size="10.0" />
+            </font>
+         </Label>
+      </children>
+   </GridPane>
+</VBox>
